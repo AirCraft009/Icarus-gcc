@@ -1380,6 +1380,13 @@ case "${targ}" in
     ;;
 #endif
 
+#ifdef BFD64
+  x86_64-*-icarus*)
+    targ_defvec=x86_64_elf64_vec
+    want64=true
+    ;;
+#endif
+
   xgate-*-*)
     targ_defvec=xgate_elf32_vec
     targ_selvecs="xgate_elf32_vec"
