@@ -230,6 +230,7 @@ case ${generic_target} in
   i386-*-fuchsia*)			fmt=elf ;;
   i386-*-haiku*)			fmt=elf em=haiku ;;
   i386-*-genode*)			fmt=elf ;;
+  i386-*-icarus*)           fmt=elf ;;
   i386-*-bsd*)				fmt=aout em=386bsd ;;
   i386-*-netbsd*-gnu* | \
   i386-*-knetbsd*-gnu | \
