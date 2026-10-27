@@ -2023,6 +2023,7 @@ case $os in
 	| hiux* \
 	| hms* \
 	| hpux* \
+	| icarus* \
 	| ieee* \
 	| interix* \
 	| ios* \
