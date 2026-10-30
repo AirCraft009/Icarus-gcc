@@ -934,6 +934,9 @@ x86_64-*-rdos*)		targ_emul=elf64rdos
 x86_64-*-haiku*)	targ_emul=elf_x86_64_haiku
 			targ_extra_emuls="elf_x86_64 elf_i386_haiku"
 			;;
+x86_64-*-icarus*)
+			targ_emul=elf_x86_64
+			;;
 x86_64-*-linux-gnux32)	targ_emul=elf32_x86_64
 			targ_extra_libpath="elf_i386 elf_x86_64"
 			tdir_elf_i386=`echo ${targ_alias} | sed -e 's/x86_64/i386/' -e 's/-linux-gnux32/-linux-gnu/'`
